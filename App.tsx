@@ -88,10 +88,10 @@ const App: React.FC = () => {
             <Calculator className="w-8 h-8 text-white" />
           </div>
           <h1 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
-            Smart LTV 계산기
+            사업자대출 계산기 BY 정진에셋 이명진
           </h1>
           <p className="text-slate-500 max-w-2xl mx-auto">
-            보유하신 아파트의 시세와 대출금, 임차보증금을 입력하시면 LTV 구간별 한도를 즉시 계산해드립니다.
+            아파트의 시세와 대출금, 임차보증금을 입력하시면 LTV 구간별 한도를 즉시 계산해드립니다.
           </p>
         </header>
 
@@ -238,7 +238,7 @@ const App: React.FC = () => {
         <footer className="text-center pt-8 border-t border-slate-200">
           <p className="text-xs text-slate-400">
             * 본 계산 결과는 참고용이며, 실제 대출 가능 여부와 한도는 개인의 신용도 및 금융사의 정책에 따라 달라질 수 있습니다.<br/>
-            * DSR(총부채원리금상환비율) 규제 적용 여부에 따라 실제 한도는 줄어들 수 있습니다.
+            * 본 계산기의 저작권은 이명진에게 있습니다. 무단사용 및 배포 불가.
           </p>
         </footer>
 
